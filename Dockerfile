@@ -1,6 +1,6 @@
 # Dockerfile
 # Use uma imagem base do Python
-FROM python:3.11-slim
+FROM python:3.11
 
 # Define o diretório de trabalho dentro do contêiner
 WORKDIR /app
