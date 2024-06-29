@@ -1,0 +1,7 @@
+myoy
+pandas
+dash
+plotly.express
+dash.dependencies
+dash_bootstrap_templates
+components
