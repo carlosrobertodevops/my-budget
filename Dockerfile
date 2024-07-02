@@ -1,11 +1,12 @@
-FROM python:3.12
-
+FROM python:3.9-slim
 
 WORKDIR /app
+
 COPY . ./
 
-RUN pip install -r requirements.txt
+# RUN pip install --upgrade pip
+RUN pip install -r requirements.txt -q
 
-EXPOSE 8080
+EXPOSE 5000
 
 CMD python myindex.py

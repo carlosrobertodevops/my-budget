@@ -53,5 +53,6 @@ def render_page_content(pathname):
         return extratos.layout
 
 
+# =========  Run server  =========== #
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(debug=False, port=5000, host="0.0.0.0")
